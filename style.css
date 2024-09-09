@@ -1,0 +1,32 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

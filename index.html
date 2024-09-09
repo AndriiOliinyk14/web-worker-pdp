@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Filter Processor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 class="title">Image Filter Processor</h1>
+
+    <div class="content">
+        <input type="file" name="image" id="image" />
+
+        <div class="row">
+            <p>Filter:</p>
+            <select name="filter" id="filter">
+                <option value="sepia">Sepia</option>
+                <option value="invert">Invert</option>
+                <option value="normal">Normal</option>
+            </select>
+        </div>
+
+        <button id="applyButton">Apply</button>
+    </div>
+
+    <div class="canvas-wrapper">
+        <canvas class="canvas" id="canvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
